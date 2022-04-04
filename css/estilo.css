@@ -1,18 +1,36 @@
 body
 {
     color: #333;
-    text-align: left;
+    text-align: center;
     font-family: "Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-#container
+#cabecera #tagline
+{
+    background: blue;
+    color: blueviolet;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#container es la cajita que contiene al titulo y parrafo
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #333;
     margin: 0 auto;
-
 }
 
+#container h1
+{
+    font-size: 20px;
+}
 
+#post
+{
+    padding: 1em;
+}
