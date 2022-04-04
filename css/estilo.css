@@ -2,19 +2,27 @@ body
 {
     color: #333;
     text-align: center;
-    font-family: "Arial";
+    font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-#cabecera #tagline
+#cabecera 
 {
     background: blue;
     color: blueviolet;
     margin: 0;
     padding: 0.5em;
 }
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8 em;
+}
+
 
 #container es la cajita que contiene al titulo y parrafo
 {
